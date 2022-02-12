@@ -1,0 +1,12 @@
+e.g. code: text.js 
+to run in console
+$ node text.js
+
+- can create own modules in a .js file, put module.exports to it. other files that require that modules will use require(../thatfile)
+
+- async things (pictures called from hard disks / network resources) are handled by CALLBACKS (send a request and pass a callback TO browser). browser completes request, it will call your callback.
+e.g. async-example.js
+
+- node built in http server function / more exmaples of module 
+nodehttpserver.js
+
