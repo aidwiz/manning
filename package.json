@@ -4,6 +4,7 @@
   "private": true,
   "version": "0.2.0",
   "dependencies": {
+    "morgan": "^1.10.0",
     "mustache": "^4.2.0"
   }
 }
