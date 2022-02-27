@@ -7,6 +7,11 @@ $ node text.js
 - async things (pictures called from hard disks / network resources) are handled by CALLBACKS (send a request and pass a callback TO browser). browser completes request, it will call your callback.
 e.g. async-example.js
 
-- node built in http server function / more exmaples of module 
+- node built in http server function / more examples of module 
 nodehttpserver.js
 
+to test ejs syntax with ejs-lint (in command prompt)
+ ./node_modules/.bin/ejslint views/new-entry.ejs
+
+ routing 56simplerouting has errors (has jquery)
+ > output is not displayed
