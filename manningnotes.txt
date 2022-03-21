@@ -15,3 +15,19 @@ to test ejs syntax with ejs-lint (in command prompt)
 
  routing 56simplerouting has errors (has jquery)
  > output is not displayed
+
+ [mongo intro]
+ one app one dbase
+ one dbase can have one or more collections
+ u can think a collection is one fancy array
+ e.g blog application has collection of blog posts
+ each collection will have any number of documents (objects with various properties)
+ application -> dbase -> collections --> documents
+ each document will have unique _id property
+
+ mongo doc, sql record
+ mongo collection, sql table
+ mongo document can embed other document (e.g. blog post embed comments), sql need two tables
+ mongo db can have many collections, sql can have many tables
+
+ for node to talk with mongo, the mongoose library is needed

@@ -1,0 +1,10 @@
+{
+  "name": "example of api versioning with routes",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
